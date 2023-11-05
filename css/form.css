@@ -1,0 +1,80 @@
+.legend {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #502578;
+}
+
+
+
+.form__fieldset {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #502578;
+    background-color: white;
+    font-weight: bold;
+}
+
+.form__field {
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+}
+
+.form__box {
+    width: 175px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #502578;
+    color: rgb(6, 16, 92);
+}
+
+.form__box--dark {
+    background-color: white;
+    width: 175px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #502578;
+    color: rgb(6, 16, 92);
+}
+
+.form__button {
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #502578;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+}
+
+.form__button:hover {
+    background-color: #502578;
+    color: aliceblue;
+}
+
+.form__button:active {
+    background-color: #502578;
+}
+
+.form__button--clearButton {
+    width: 45%;
+    float: right;
+}
+
+.result {
+    text-align: center;
+    border: 2px solid #502578;
+    background-color: white;
+    font-weight: bold;
+}
+
+.paragraph {
+        text-align: center;
+}

@@ -1,0 +1,10 @@
+.body {
+    display: flex;
+    max-width: 500px;
+    margin: 25px auto;
+    background-color: rgba(225, 231, 231, 0.811);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(6, 16, 92);
+    background-image: url(https://i.postimg.cc/HsZ68Rkv/heap-chocolate-coins.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="images/share.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <title>Currency converter</title>
+</head>
+
+<body class="body">
+    <div class="box">
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="legend">Currency converter</legend>
+                <p>
+                    <label>
+                        <span class="form__field">Currency</span>
+                        <select class="form__box js-currency" name="currency" required>
+                            <option value="" disabled selected>-choose-</option>
+                            <option value="euro">EUR</option>
+                            <option value="dollar">USD</option>
+                            <option value="pound">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    
+                </p>
+                <p>
+                    <label>
+                        <span class="form__field">Amount</span>
+                        <input class="form__box js-amount" type="number" name="amount" placeholder="Type in amount"
+                            min="0" step="any" required>
+                    </label>
+                </p>
+
+            </fieldset>
+            <p>
+                <button class="form__button" type="submit">Convert!</button>
+                <button class="form__button form__button--clearButton js-reset" type="reset">Reset</button>
+            </p>
+        
+        <p class="result js-result">
+            Result: <strong class="js-form">N/A</strong> PLN.
+        </p>
+    </form>
+        <p class="paragraph"> All currency rates are assigned to publishing date of xyz.</p>
+        <p class="paragraph">All rights reserved.</p>
+    </div>
+</body>
+
+</html>
